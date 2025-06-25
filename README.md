@@ -1,1 +1,23 @@
-# Penanggalan-Jawi
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalender Jawa</title>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="digital-display-container">
+    <div id="currentDate" class="date-display"></div>
+    <div id="currentWeton" class="weton-display"></div>
+    <div id="currentTime" class="time-display">
+      <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>
+      <span id="millisecond" class="time-ms">000</span>
+    </div>
+    <div id="prayerCountdown" class="countdown-display"></div>
+    <div id="locationInfo" class="location-display"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
